@@ -1,0 +1,76 @@
+.rightbar{
+    flex: 3.5;
+}
+
+.rightbar-wrapper{
+    padding:20px 20px 0 0;
+}
+
+.birthday-container{
+    display: flex;
+    align-items: center;
+}
+.birthday-img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.birthday-text{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.advert{
+    width: 100%;
+    border-radius:10px;
+    margin: 30px 0;
+}
+
+/* Online friends */
+.rightbar-title{
+    margin-bottom: 20px;
+}
+.rightbar-friend-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.user-info-title{
+    font-size: 18px;
+    font-weight: 500px;
+    margin: 25px 0;
+    cursor: pointer;
+}
+
+.rightbar-info{
+    margin: 10px;
+}
+.rightbar-info-key{
+    margin-right: 15px;
+    font-weight: 500;
+    color:#555;
+}
+.rightbar-info-value{
+   font-weight: 300;
+}
+
+.rightbar-followings{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.right-bar-following{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+
+.rightbar-following-img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}

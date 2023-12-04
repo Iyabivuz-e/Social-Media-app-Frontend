@@ -1,0 +1,30 @@
+.rightbar-friend{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.rightbar-profile-container{
+    margin-right: 10px;
+    position: relative;
+}
+.rightbar-profile{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.rightbar-online{
+    width: 12px; 
+    height:12px;
+    border-radius:50%;
+    background-color: limegreen;
+    position:absolute;
+    top:-2px;
+    right:0;
+    border:2px solid #fff;
+}
+.username{
+    font-weight: 600;
+}
